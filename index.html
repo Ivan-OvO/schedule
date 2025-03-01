@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+
+        .schedule-title {
+            text-align: center;
+            font-size: 28px;
+            color: #333;
+            margin: 30px 0;
+            letter-spacing: 2px;
+        }
+
+        .schedule-table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: white;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            table-layout: fixed;
+        }
+
+        .schedule-table th,
+        .schedule-table td {
+            border: 1px solid #e0e0e0;
+            padding: 12px;
+            text-align: center;
+            vertical-align: middle;
+            min-width: 80px;
+            height: 50px;
+        }
+
+        .time-column {
+            background-color: #f8f9fa;
+            font-weight: bold;
+            color: #666;
+            width: 7%;
+        }
+
+        .day-column {
+            width: 13%;
+            color: #444;
+        }
+
+        .notes-column {
+            width: 13%;
+            background-color: #ff9900;
+        }
+
+        .notes-column2 {
+            width: 13%;
+            background-color: #00cc00;
+        }
+
+        .notes-column3 {
+            width: 13%;
+            background-color: #0099ff;
+        }
+
+        .table-header {
+            background-color: #424242;
+            color: white;
+            font-weight: bold;
+            font-size: 16px;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="schedule-title">SCHEDULE</h1>
+    
+    <table class="schedule-table">
+        <thead>
+            <tr>
+                <th class="table-header time-column">TIME</th>
+                <th class="table-header day-column">MON</th>
+                <th class="table-header day-column">TUE</th>
+                <th class="table-header day-column">WED</th>
+                <th class="table-header day-column">THU</th>
+                <th class="table-header day-column">FRI</th>
+                <th class="table-header day-column">SAT</th>
+                <th class="table-header day-column">SUN</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td class="time-column">8-9</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td class="time-column">9-10</td><td></td><td class="notes-column">MU</td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td class="time-column">10-11</td><td></td><td class="notes-column">MU</td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td class="time-column">11-12</td><td class="notes-column">MU</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td class="time-column">12-13</td><td class="notes-column">MU</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td class="time-column">13-14</td><td class="notes-column">MU</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td class="time-column">14-15</td><td class="notes-column">MU</td><td></td><td></td><td></td><td class="notes-column">MU</td><td></td><td></td></tr>
+            <tr><td class="time-column">15-16</td><td></td><td class="notes-column">MU</td><td></td><td class="notes-column">MU</td><td class="notes-column">MU</td><td></td><td></td></tr>
+            <tr><td class="time-column">16-17</td><td></td><td class="notes-column">MU</td><td class="notes-column2">adv training</td><td class="notes-column">MU</td><td></td><td></td><td></td></tr>
+            <tr><td class="time-column">17-18</td><td></td><td></td><td></td><td class="notes-column">MU</td><td></td><td></td><td></td></tr>
+            <tr><td class="time-column">18-19</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td class="time-column">19-20</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td class="time-column">20-21</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td class="time-column">21-22</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td class="time-column">22-23</td><td></td><td class="notes-column2">adv meeting</td><td class="notes-column3">大圍training</td><td></td><td class="notes-column3">大圍training</td><td></td><td></td></tr>
+            <tr><td class="time-column">23-24</td><td></td><td></td><td class="notes-column3">大圍training</td><td></td><td class="notes-column3">大圍training</td><td></td><td></td></tr>
+        </tbody>
+    </table>
+</body>
+</html>
